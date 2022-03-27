@@ -1,13 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 import data from './Data';
 import Music from './Music';
+import 'bootstrap';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Music url={data.album.images[0].url} tittle={data.name} artist={data.artists[0].name}/>
+
+      <div className="container-md">
+
+          <div className='row row-cols-1 row-cols-md-2 g-4'>
+            {data.map((isi)=>{
+              return(
+                <Music key={isi.id}  url={isi.album.images[0].url} tittle={isi.album.name} artist={isi.artists[0].name}/>
+              );
+            })}
+          </div>
+          
+        </div>
+
+        {/* <Music url={data.album[0].images[0].url} tittle={data.name[0]} artist={data.artists[0].name}/> */}
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
