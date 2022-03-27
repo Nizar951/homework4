@@ -18,7 +18,6 @@ const Music = ({url, tittle, artist}) => {
             <h2>Tittle : {tittle}</h2>
             <h3>Artist : {artist}</h3>
           </div>
-
           <button>Select</button>
         </div> */}
 }

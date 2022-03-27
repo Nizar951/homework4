@@ -78,7 +78,6 @@ const data = [
     type: "track",
     uri: "spotify:track:4u7EnebtmKWzUH433cf5Qv"
   },
-  
   {
     album: {
       album_type: "album",
@@ -158,7 +157,6 @@ const data = [
     type: "track",
     uri: "spotify:track:3z8h0TU7ReDPLIbEnYhWZb"
   },
-
   {
     album: {
       album_type: "album",
@@ -239,7 +237,6 @@ const data = [
     type: "track",
     uri: "spotify:track:5jnxScfRVyWskdfPGjTF7c"
   },
-
   {
     album: {
       album_type: "compilation",
@@ -320,7 +317,6 @@ const data = [
     type: "track",
     uri: "spotify:track:2YSbHu9XF4bNYWt3MnIhgE"
   },
-
   {
     album: {
       album_type: "album",
@@ -401,7 +397,6 @@ const data = [
     type: "track",
     uri: "spotify:track:0lrkMvRttmoXjMNS8YONvj"
   },
-
   {
     album: {
       album_type: "album",
@@ -481,7 +476,6 @@ const data = [
     type: "track",
     uri: "spotify:track:5txoZyuAmtCfmDjUCEphWm"
   },
-
   {
     album: {
       album_type: "single",
@@ -562,7 +556,6 @@ const data = [
     type: "track",
     uri: "spotify:track:4dPKZJKJzPl4TEWLsMdohE"
   },
-
   {
     album: {
       album_type: "album",
@@ -642,7 +635,6 @@ const data = [
     type: "track",
     uri: "spotify:track:300YN8ebGB90nDuzgz0f3O"
   },
-
   {
     album: {
       album_type: "album",
@@ -722,7 +714,6 @@ const data = [
     type: "track",
     uri: "spotify:track:7xHATAMD7ezTZGYsNAMr5R"
   },
-
   {
     album: {
       album_type: "album",
